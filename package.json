@@ -1,0 +1,19 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "mocha": "mocha --reporter spec test.js",
+    "test": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=./JUnit/mochareports.xml test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mocha": "^4.0.1",
+    "mocha-junit-reporter": "^1.15.0",
+    "should": "^13.1.3",
+    "supertest": "^3.0.0"
+  }
+}
